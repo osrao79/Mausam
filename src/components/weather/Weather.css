@@ -1,0 +1,53 @@
+.container {
+  margin-top: 50px;
+}
+.city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  color: white;
+  background-color: rgba(248, 248, 248, 0.438);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.image {
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+  height: 100px;
+}
+
+.temprature {
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(204, 202, 198, 0.493);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-weight: 400;
+}
+.temp-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pres-aqi {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 5px;
+  grid-auto-rows: minmax(50px, auto);
+  background-color: rgba(204, 202, 198, 0.493);
+  color: white;
+  align-items: center;
+  justify-items: center;
+  border-radius: 5px;
+}

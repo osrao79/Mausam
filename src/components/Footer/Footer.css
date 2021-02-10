@@ -1,0 +1,8 @@
+.footer {
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  border-top: rgb(56, 50, 50) 0.5px solid;
+}
